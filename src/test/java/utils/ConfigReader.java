@@ -1,7 +1,5 @@
 package utils;
 
-import com.sun.source.tree.BreakTree;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,7 +23,7 @@ public class ConfigReader {
 
     public static String getPropertyValue(String key){
         //get property is the method which will read the value as per the key provided
-       return prop.getProperty(key);
+        return prop.getProperty(key);
     }
 
 
